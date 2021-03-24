@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+    <title>Todo List</title>
+  </head>
+  <body>
+  
+    <div class="container">
+      <header>
+        <p><spam class="minima">minima</spam><span class="list">List</span></p>
+      </header>
+      <div class="inputs">
+        <input id="texto-tarefa" type="text" />
+        <input class='btn' type='submit' id="criar-tarefa"></input>
+      </div>
+      <section class="section">
+        <div class="todos">     
+          <ul id="lista-tarefas">          
+          </ul>
+        </div>
+        <div class="btns">
+          <button id="apaga-tudo">Clear</button>
+          <!-- <button id="remover-finalizados">Remover Finalizados</button> -->
+          <button id="salvar-tarefas">Save</button>
+          <button id="mover-cima">⬆</button>
+          <button id="mover-baixo">⬇</button>
+          <!-- <button id="remover-selecionado">Remover Selecionado</button> -->
+        </div>
+        <div class="infos">
+          <i class="fas fa-question-circle"></i>
+          <p class='info'> - Click para selecionar<br/>             
+              - Dois clicks para marcar como concluído<br/>
+              - Botão direito para apagar tarefa<br/>
+              - Selecione para movimentar
+          </p>
+        </div>
+      </section>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

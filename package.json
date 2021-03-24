@@ -1,0 +1,17 @@
+{
+  "name": "todofinalport",
+  "version": "1.0.0",
+  "description": "todoApp",
+  "main": "script.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3"
+  }
+}
